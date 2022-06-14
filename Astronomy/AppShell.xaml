@@ -11,18 +11,14 @@
         </Grid>
     </Shell.FlyoutHeader>
 
-    <FlyoutItem Title="Moon Phase" Icon="moon.png">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:MoonPhasePage}"/>
-    </FlyoutItem>
-    <FlyoutItem Title="Sunrise" Icon="sun.png">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:SunrisePage}"/>
-    </FlyoutItem>
+    <TabBar>
+        <Tab Title="Moon Phase" Icon="moon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" />
+        </Tab>
+        <Tab Title="Sunrise" Icon="sun.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SunrisePage}"/>
+        </Tab>
+    </TabBar>
 
-    <FlyoutItem Title="About" Icon="question.png">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:AboutPage}"/>
-    </FlyoutItem>
 
 </Shell>
