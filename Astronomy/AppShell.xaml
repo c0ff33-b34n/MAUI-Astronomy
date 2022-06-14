@@ -17,6 +17,9 @@
 
         <ShellContent Title="Sunrise" Icon="sun.png"
         ContentTemplate="{DataTemplate local:SunrisePage}"/>
+
+        <ShellContent Title="Bodies" Icon="comet.png"
+            ContentTemplate="{DataTemplate local:AstronomicalBodiesPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="About" Icon="question.png">
         <ShellContent
